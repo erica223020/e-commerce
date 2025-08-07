@@ -1,3 +1,6 @@
+/* 引入字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
 /* CSS reset*/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -47,4 +50,27 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* 標籤基本樣式 */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* 中間對齊，清除圖片下方的空白 */
+img {
+    vertical-align: middle; 
+}
+
+a {
+    color: #57A203;
+    text-underline-offset: 4px;
+    display: block;
+}
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
 }
