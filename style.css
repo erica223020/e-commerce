@@ -231,6 +231,7 @@ body {
 .bg-neutral-100 {
 	background-color: var(--neutral-100);
 }
+
 .p-32 {
 	padding: 32px;
 }
@@ -271,4 +272,29 @@ body {
 
 .mb-48 {
 	margin-bottom: 48px;
+}
+
+/* page */
+.header {
+	background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week1/hero.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 142.4px 0;
+	text-align: center;
+}
+
+.eng-title {
+	font-size: 28px;
+}
+
+.quote {
+	border-radius: 12px;
+	text-align: center;
+}
+
+.intro img{
+	width: 1076px;
+	margin-right: -110px;
+	margin-left: -110px;
 }
