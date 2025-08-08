@@ -250,7 +250,7 @@ body {
 	padding-bottom: 48px;
 }
 
-.pr-8 {
+.pe-8 {
 	padding-right: 8px;
 }
 
@@ -297,4 +297,18 @@ body {
 	width: 1076px;
 	margin-right: -110px;
 	margin-left: -110px;
+}
+
+.section-lined {
+	border-bottom: 1px solid var(--neutral-300);
+}
+
+.history-desc {
+	border-left: 1px solid var(--neutral-900);
+	padding-left: 8px;
+}
+
+.history-list {
+	list-style-type: disc;
+	padding-left: 24pz;
 }
