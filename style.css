@@ -1,5 +1,6 @@
 /* 引入字體 */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
 /* CSS reset*/
 
@@ -310,5 +311,19 @@ body {
 
 .history-list {
 	list-style-type: disc;
-	padding-left: 24pz;
+	padding-left: 24px;
+}
+
+.philosophy-item {
+	border-left: 3px solid var(--neutral-300);
+	padding-left: 12px;
+}
+
+.bi {
+	padding-right: 8px;
+	vertical-align: bottom;
+}
+
+.footer {
+	text-align: center;
 }
