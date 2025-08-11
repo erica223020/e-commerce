@@ -175,7 +175,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.05em;
-	color: var(	--neutral-900);
+	color: var(--neutral-900);
 }
 
 /* 通用樣式 */
@@ -294,7 +294,7 @@ body {
 	text-align: center;
 }
 
-.intro img{
+.intro img {
 	width: 1076px;
 	margin-right: -110px;
 	margin-left: -110px;
